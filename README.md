@@ -31,11 +31,15 @@
 - Behave
 - nose
 
+#### Set Environment Variables
+- export BROWSER=chrome
+- export BASE_URL=www.amazon.com
+
 #### Run command
 > python3 -m behave WebAutomation/amazon_web/
 
 #### Features
-- BDD Approach 
+- BDD Approach (Gherkin and Cucumber)
 - Page Object Model
 - Singleton class for single browser initialization 
 - Read configuration from environment variablel
