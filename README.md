@@ -35,6 +35,7 @@
 > python3 -m behave WebAutomation/amazon_web/
 
 #### Features
+- BDD Approach 
 - Page Object Model
 - Singleton class for single browser initialization 
 - Read configuration from environment variablel
