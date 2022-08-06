@@ -40,4 +40,5 @@
 - Read configuration from environment variablel
 - Separate web elements management
 - All possible scenarios e.g. Negative / Edge testcases 
-- Happy flow is not possible as it requires email / mobile verification
+
+> Note: Happy flow is not possible as it requires email / mobile verification
