@@ -2,7 +2,7 @@ Feature: User Signin Screen
 
   Scenario: 1 Verify signin screen detail
     Given I open amazon home page
-    Then I click on "Sign in" link on the home page
+    Then I click on "Sign-In" link on the home page
     And I should see signin screen is shown with title 'Sign-In'
     Then I should see following fields shown on signin screen
       | Email or mobile phone number |
@@ -48,7 +48,7 @@ Feature: User Signin Screen
 
   Scenario: 4 Verify create account screen from signin screen
     Given I open amazon home page
-    Then I click on "Sign in" link on the home page
+    Then I click on "Sign-In" link on the home page
     And I should see signin screen is shown with title 'Sign-In'
     And I should see "Create your Amazon account" button is shown at the bottom of signin screen
     And I click on "Create your Amazon account" button on signin screen
