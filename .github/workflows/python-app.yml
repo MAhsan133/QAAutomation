@@ -26,4 +26,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with behave
       run: |
-        behave WebAutomation/amazon_web/user_login.feature
+        behave WebAutomation/amazon_web/user_registration.feature
